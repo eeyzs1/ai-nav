@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#6366f1" />
+
+  <!-- ============ SEO Meta ============ -->
+  <title>溯泠 AI 工具室 - 精选 500+ 款 AI 工具导航 | AI 写作 / 编程 / 设计 / 视频</title>
+  <meta name="description" content="溯泠 AI 工具室精选 30+ 款真实好用的 AI 工具，覆盖 AI 对话、绘画、编程、设计、营销、办公、视频、音频、搜索等场景，附深度评测与官网直达，助你高效选工具。" />
+  <meta name="keywords" content="AI工具,AI导航,AI工具大全,ChatGPT,Claude,DeepSeek,Midjourney,Cursor,AI绘画,AI编程,AI写作,AI视频" />
+  <meta name="author" content="溯泠 AI 工具室" />
+  <meta name="robots" content="index, follow" />
+  <link rel="canonical" href="https://eeyzs1.github.io/ai-nav/" />
+
+  <!-- ============ Open Graph / 社交分享 ============ -->
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="溯泠 AI 工具室 - 精选 AI 工具导航" />
+  <meta property="og:description" content="覆盖 AI 对话、绘画、编程、设计、视频等场景的精选 AI 工具导航，附深度评测与官网直达。" />
+  <meta property="og:locale" content="zh_CN" />
+  <meta property="og:url" content="https://eeyzs1.github.io/ai-nav/" />
+  <meta property="og:site_name" content="溯泠 AI 工具室" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="溯泠 AI 工具室 - 精选 AI 工具导航" />
+  <meta name="twitter:description" content="覆盖 AI 对话、绘画、编程、设计、视频等场景的精选 AI 工具导航。" />
+
+  <!-- ============ 结构化数据 JSON-LD ============ -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "name": "溯泠 AI 工具室",
+    "url": "https://eeyzs1.github.io/ai-nav/",
+    "description": "精选 AI 工具导航，覆盖 AI 对话、绘画、编程、设计、视频等场景。",
+    "inLanguage": "zh-CN",
+    "potentialAction": {
+      "@type": "SearchAction",
+      "target": "https://eeyzs1.github.io/ai-nav/?q={search_term_string}",
+      "query-input": "required name=search_term_string"
+    }
+  }
+  </script>
+
+  <!-- ============ Tailwind CSS CDN ============ -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    // Tailwind 深色模式基于 class 切换
+    tailwind.config = { darkMode: "class" };
+  </script>
+
+  <!-- ============ 自定义样式 ============ -->
+  <link rel="stylesheet" href="style.css" />
+
+  <!-- ============ 站点图标（内联 SVG） ============ -->
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Cdefs%3E%3ClinearGradient id='g' x1='0' y1='0' x2='1' y2='1'%3E%3Cstop offset='0' stop-color='%236366f1'/%3E%3Cstop offset='0.5' stop-color='%238b5cf6'/%3E%3Cstop offset='1' stop-color='%2306b6d4'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width='32' height='32' rx='8' fill='url(%23g)'/%3E%3Ctext x='16' y='22' font-size='16' font-weight='800' fill='white' text-anchor='middle' font-family='sans-serif'%3ES%3C/text%3E%3C/svg%3E" />
+</head>
+<body>
+  <!-- 无障碍：跳到主内容 -->
+  <a href="#main" class="skip-link">跳到主内容</a>
+
+  <!-- ============ 顶部导航 ============ -->
+  <header class="site-header">
+    <div class="container-x">
+      <div style="display:flex;align-items:center;justify-content:space-between;gap:16px;padding:12px 0;flex-wrap:wrap;">
+        <!-- Logo -->
+        <a href="index.html" class="site-logo" aria-label="溯泠 AI 工具室 首页">
+          <span class="logo-mark" aria-hidden="true">溯</span>
+          <span>溯泠 <span class="brand-text">AI 工具室</span></span>
+        </a>
+
+        <!-- 桌面端搜索框 -->
+        <div class="nav-search-mobile" style="flex:1;max-width:420px;min-width:200px;" id="navSearch">
+          <div class="search-wrap">
+            <svg class="search-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+            <input type="search" class="search-input" placeholder="搜索工具名称、功能…" aria-label="搜索 AI 工具" autocomplete="off" />
+            <button class="search-clear" aria-label="清空搜索" type="button">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+            </button>
+          </div>
+        </div>
+
+        <!-- 导航菜单 -->
+        <nav class="nav-menu" id="navMenu" style="display:flex;align-items:center;gap:4px;" aria-label="主导航">
+          <a href="index.html" class="nav-link active">首页</a>
+          <a href="#categories" class="nav-link">分类</a>
+          <a href="#tools" class="nav-link">工具库</a>
+          <a href="blog.html" class="nav-link">评测博客</a>
+          <a href="#about" class="nav-link">关于</a>
+        </nav>
+
+        <div style="display:flex;align-items:center;gap:10px;">
+          <!-- 主题切换 -->
+          <button class="theme-toggle" id="themeToggle" aria-label="切换深色/浅色模式" title="切换主题">
+            <svg class="icon-moon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
+            <svg class="icon-sun" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg>
+          </button>
+          <!-- 移动端菜单按钮 -->
+          <button class="mobile-menu-btn" id="mobileMenuBtn" aria-label="打开菜单" aria-expanded="false">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
+          </button>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main id="main">
+    <!-- ============ Hero 区 ============ -->
+    <section class="hero-section">
+      <div class="container-x">
+        <span class="hero-badge">
+          <span class="dot" aria-hidden="true"></span>
+          每周更新 · 已收录 30+ 款精选 AI 工具
+        </span>
+        <h1 class="hero-title">
+          <span class="brand-text">AI 工具大全</span><br />
+          精选 500+ 款 AI 工具
+        </h1>
+        <p class="hero-subtitle">
+          覆盖 AI 对话、绘画、编程、设计、营销、办公、视频、音频、搜索全场景，附深度评测与官网直达，助你用对工具、事半功倍。
+        </p>
+
+        <!-- Hero 搜索框 -->
+        <div class="hero-search" style="max-width:680px;margin:0 auto;" id="heroSearch">
+          <div class="search-wrap">
+            <svg class="search-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+            <input type="search" class="search-input" placeholder="试试搜索 ChatGPT、AI 绘画、免费编程工具…" aria-label="搜索 AI 工具" autocomplete="off" />
+            <button class="search-clear" aria-label="清空搜索" type="button">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+            </button>
+          </div>
+        </div>
+
+        <!-- 热门搜索词 -->
+        <div style="margin-top:18px;display:flex;gap:8px;flex-wrap:wrap;justify-content:center;">
+          <span style="font-size:13px;color:var(--text-muted);align-self:center;">热门：</span>
+          <button class="category-pill" data-hot="ChatGPT" style="padding:5px 12px;font-size:13px;">ChatGPT</button>
+          <button class="category-pill" data-hot="AI绘画" style="padding:5px 12px;font-size:13px;">AI 绘画</button>
+          <button class="category-pill" data-hot="AI编程" style="padding:5px 12px;font-size:13px;">AI 编程</button>
+          <button class="category-pill" data-hot="免费" style="padding:5px 12px;font-size:13px;">免费工具</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ 分类标签 ============ -->
+    <section id="categories" style="padding:16px 0 8px;">
+      <div class="container-x">
+        <div class="pills-scroll" id="categoryPills" role="tablist" aria-label="工具分类">
+          <!-- 由 app.js 动态渲染 -->
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ 工具网格 ============ -->
+    <section id="tools" style="padding:24px 0 48px;">
+      <div class="container-x">
+        <!-- 工具栏：筛选 + 排序 + 计数 -->
+        <div class="toolbar">
+          <div class="toolbar-left">
+            <span class="result-count" id="resultCount">加载中…</span>
+          </div>
+          <div class="toolbar-right">
+            <!-- 价格筛选 -->
+            <select class="filter-select" id="pricingSelect" aria-label="按价格筛选">
+              <option value="all">全部价格</option>
+              <option value="free">免费</option>
+              <option value="freemium">Freemium</option>
+              <option value="paid">付费</option>
+            </select>
+            <!-- 排序 -->
+            <select class="filter-select" id="sortSelect" aria-label="排序方式">
+              <option value="rating">按评分排序</option>
+              <option value="name">按名称排序</option>
+            </select>
+          </div>
+        </div>
+
+        <!-- 工具卡片网格 -->
+        <div class="tools-grid" id="toolsGrid" aria-live="polite" aria-busy="true">
+          <!-- 由 app.js 动态渲染 -->
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ 关于 / 介绍区 ============ -->
+    <section id="about" style="padding:32px 0 16px;">
+      <div class="container-x">
+        <div class="glass" style="border-radius:20px;padding:32px;">
+          <h2 class="section-title" style="margin-bottom:16px;">为什么选择溯泠 AI 工具室？</h2>
+          <div style="display:grid;grid-template-columns:repeat(1,1fr);gap:20px;margin-top:8px;" class="about-grid">
+            <div style="display:flex;gap:14px;align-items:flex-start;">
+              <div style="width:44px;height:44px;border-radius:12px;background:var(--brand-grad);display:grid;place-items:center;color:#fff;flex-shrink:0;">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
+              </div>
+              <div>
+                <h3 style="font-weight:700;font-size:16px;color:var(--text-primary);margin-bottom:4px;">真实评测，拒绝水分</h3>
+                <p style="font-size:14px;color:var(--text-secondary);line-height:1.6;">每款工具都经过实际使用，列出真实优缺点与适用场景，帮你避坑选对。</p>
+              </div>
+            </div>
+            <div style="display:flex;gap:14px;align-items:flex-start;">
+              <div style="width:44px;height:44px;border-radius:12px;background:var(--brand-grad);display:grid;place-items:center;color:#fff;flex-shrink:0;">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+              </div>
+              <div>
+                <h3 style="font-weight:700;font-size:16px;color:var(--text-primary);margin-bottom:4px;">分类清晰，一搜即达</h3>
+                <p style="font-size:14px;color:var(--text-secondary);line-height:1.6;">10 大分类 + 全文搜索 + 多维筛选，秒级定位你需要的 AI 工具。</p>
+              </div>
+            </div>
+            <div style="display:flex;gap:14px;align-items:flex-start;">
+              <div style="width:44px;height:44px;border-radius:12px;background:var(--brand-grad);display:grid;place-items:center;color:#fff;flex-shrink:0;">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"/></svg>
+              </div>
+              <div>
+                <h3 style="font-weight:700;font-size:16px;color:var(--text-primary);margin-bottom:4px;">持续更新，紧跟前沿</h3>
+                <p style="font-size:14px;color:var(--text-secondary);line-height:1.6;">AI 进化飞快，我们持续追踪新工具与新模型，让导航库永远新鲜。</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ============ 底部 ============ -->
+  <footer class="site-footer">
+    <div class="container-x">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a href="index.html" class="site-logo">
+            <span class="logo-mark" aria-hidden="true">溯</span>
+            <span>溯泠 <span class="brand-text">AI 工具室</span></span>
+          </a>
+          <p class="footer-desc">
+            一个用心筛选与评测的 AI 工具导航站，覆盖对话、绘画、编程、设计、办公、视频等场景，助你高效找到趁手的 AI 工具。
+          </p>
+        </div>
+        <div class="footer-col">
+          <h4>工具分类</h4>
+          <ul>
+            <li><a href="#tools" data-cat="AI对话">AI 对话</a></li>
+            <li><a href="#tools" data-cat="AI图片">AI 绘画</a></li>
+            <li><a href="#tools" data-cat="AI编程">AI 编程</a></li>
+            <li><a href="#tools" data-cat="AI视频">AI 视频</a></li>
+            <li><a href="#tools" data-cat="AI搜索">AI 搜索</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>资源导航</h4>
+          <ul>
+            <li><a href="blog.html">评测博客</a></li>
+            <li><a href="#about">关于我们</a></li>
+            <li><a href="https://github.com" target="_blank" rel="noopener">GitHub 项目</a></li>
+            <li><a href="#tools">全部工具</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>友情链接</h4>
+          <ul>
+            <li><a href="https://chat.openai.com" target="_blank" rel="noopener">ChatGPT</a></li>
+            <li><a href="https://claude.ai" target="_blank" rel="noopener">Claude</a></li>
+            <li><a href="https://www.cursor.com" target="_blank" rel="noopener">Cursor</a></li>
+            <li><a href="https://midjourney.com" target="_blank" rel="noopener">Midjourney</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>© 2025 溯泠 AI 工具室 · 保留所有权利</span>
+        <span>
+          <a href="https://beian.miit.gov.cn" target="_blank" rel="noopener">ICP 备案号</a> ·
+          本站内容仅供学习交流，工具版权归原作者所有
+        </span>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ============ 工具详情模态框 ============ -->
+  <div class="modal-overlay" id="toolModal" role="dialog" aria-modal="true" aria-labelledby="modalTitle" aria-hidden="true">
+    <div class="modal" id="modalBody">
+      <!-- 由 app.js 动态渲染 -->
+    </div>
+  </div>
+
+  <!-- ============ Toast 容器 ============ -->
+  <div class="toast-container" id="toastContainer" aria-live="polite" aria-atomic="true"></div>
+
+  <!-- ============ 返回顶部 ============ -->
+  <button id="backToTop" aria-label="返回顶部" style="position:fixed;right:20px;bottom:20px;width:44px;height:44px;border-radius:50%;border:1px solid var(--border-soft);background:var(--bg-soft);color:var(--text-primary);cursor:pointer;display:none;align-items:center;justify-content:center;box-shadow:var(--shadow-card);z-index:60;transition:all 0.2s ease;">
+    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="18 15 12 9 6 15"/></svg>
+  </button>
+
+  <!-- ============ 核心脚本 ============ -->
+  <script src="app.js"></script>
+  <script>
+    // 热门搜索词点击 → 填入搜索框
+    document.addEventListener("DOMContentLoaded", () => {
+      document.querySelectorAll("[data-hot]").forEach(btn => {
+        btn.addEventListener("click", () => {
+          const kw = btn.dataset.hot;
+          const heroInput = document.querySelector("#heroSearch .search-input");
+          if (heroInput) {
+            heroInput.value = kw;
+            heroInput.dispatchEvent(new Event("input", { bubbles: true }));
+            heroInput.focus();
+            document.getElementById("tools").scrollIntoView({ behavior: "smooth" });
+          }
+        });
+      });
+      // 底部分类链接 → 触发对应分类筛选
+      document.querySelectorAll("[data-cat]").forEach(link => {
+        link.addEventListener("click", () => {
+          const cat = link.dataset.cat;
+          setTimeout(() => {
+            const pill = document.querySelector(`.category-pill[data-category="${cat}"]`);
+            if (pill) pill.click();
+          }, 300);
+        });
+      });
+      // 返回顶部按钮显示控制（补充样式）
+      const backBtn = document.getElementById("backToTop");
+      if (backBtn) {
+        const style = document.createElement("style");
+        style.textContent = "#backToTop.visible { display: inline-flex !important; }";
+        document.head.appendChild(style);
+      }
+    });
+  </script>
+</body>
+</html>
